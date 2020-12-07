@@ -14,6 +14,7 @@
 								}
 
 		#menubar div:hover{background:#555; color:#fff; border-radius: 5px}
+    #chatting div:hover{background:#32353b; color:#fff; padding: 5px;}
 
 
 		#menubar1 div{
@@ -24,24 +25,31 @@
 								}
 
 		#menubar1 div:hover{background:url('./img/image.jpg'); color:#fff; width:150px;}
-    div{
+    #head div:hover{
+      background:#555; color:#fff; border-radius: 5px;
     }
     body{
       background: #2f3136
     }
     div.left{
-      float: left;background-color: #2f3136
+      float: left;background-color: #2f3136; padding-right: 20px;
     }
     div.right{
       float: center;
       text-align:left; color:white;background: #36393f;padding-left: 150px; padding-top: 20px;
     }
+    h1{
+      color:white;padding: 10px;margin: 0;
+    }
+    div.chatting{
+      padding: 5px;
+    }
 	</style>
  </head>
 
  <body>
-   <h1></h1>
-<div style="height:100px;"></div>
+   <h1 id="head">디스코드</h1>
+<div style="height:100px;">대화방</div>
 <div id="menubar" class="left">
 	<div>스폰지밥</div><br><br>
   <div>EAST_WiseMen</div><br><br>
